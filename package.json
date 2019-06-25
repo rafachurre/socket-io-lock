@@ -1,0 +1,25 @@
+{
+  "name": "socket-io-lock",
+  "version": "1.0.0",
+  "description": "web sockets server with lock mechanism for reading files",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafachurre/socket-io-lock.git"
+  },
+  "author": "rafael lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafachurre/socket-io-lock/issues"
+  },
+  "homepage": "https://github.com/rafachurre/socket-io-lock#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  }
+}
